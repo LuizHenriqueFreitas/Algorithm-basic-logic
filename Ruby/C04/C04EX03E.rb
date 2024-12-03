@@ -12,8 +12,6 @@ C = gets.chomp.to_i
 
 DELTA = B ** 2 - 4 * A * C
 
-puts "#{DELTA}"
-
 if (DELTA < 0)
   puts "Não há solução real." 
 else
